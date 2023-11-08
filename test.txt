@@ -1,1 +1,32 @@
 This is a testfile for reddydevops003 project
+dfw01c02-nfs01.webex.com:/tx_bts3_mt_j2eeapp_log,
+dfw01c02-nfs01.webex.com:/vol6_misc/tx-mt-j2eeapp-log,
+dfw01fbld01-nfs01.webex.com:/tx-fbld-mt-nbr2p,
+dfw01c02-nfs01.webex.com:/bts3_mt_nbr2_p/bts3-mt-nbr2-p,
+dfw01fbld01-nfs01.webex.com:/tx-fbld-mt-nbr2b,
+dfw01c02-nfs01.webex.com:/bts3_mt_nbr2_b/bts3-mt-nbr2-b,
+dfw01c02-nfs01.webex.com:/nbr_playback_dfw01_bts
+
+dfw01fbld01-nfs01.webex.com:/tx-fbld-mt-nbr2playback
+
+/vol5_nbr2/tx-mt-nbr2playback
+
+
+success
+dfw01c02-nfs01.webex.com:/vol6_misc/tx-mt-j2eeapp-log
+dfw01fbld01-nfs01.webex.com:/tx-fbld-mt-nbr2p
+
+On Servers
+dfw01c02-nfs01.webex.com:/vol5_nbr2/tx-mt-nbr2playback  100T   51T   50T  51% /nbr2/tx1/playback
+dfw01fbld01-nfs01.webex.com:/tx-fbld-mt-nbr2playback    150T  408G  150T   1% /nbr2/tx01/fbld-tx-nbr2playback
+
+
+Doris        WEBEX-361180 - Audit 'urn:MEETING:prod-awwd' as meetingClusterId in ALL CI clusters (US-A, US-B, EU, CA)
+Wey Zou      WEBEX-361181 - Reset org home cluster before cluster decommission-AW
+Bacchus Chen WEBEX-361182 - Update meetingkey SEGMENTID mapping for the cluster AW in Cassandra DB
+Janus Wang   WEBEX-361183 - Remove cluster from U2C configuration for cluster AW for Webex Admin Service(AdminNG)
+Zhi Zhang    WEBEX-361184 - Remove cluster from U2C configuration for cluster AW for wbxappapi services
+Haibo Wang   WEBEX-361187 - Remove cluster from U2C configuration for cluster AW for AiBridge services
+
+
+
